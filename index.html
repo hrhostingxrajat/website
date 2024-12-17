@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Hosting - Minecraft Server Hosting</title>
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="path/to/your/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>HR Hosting</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#development">Development</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero text-container">
+            <div class="hero-content">
+                <h2>Premium Minecraft Server Hosting</h2>
+                <p>High performance servers with downtime as low as 0.01%</p>
+                <button class="cta-button" onclick="document.getElementById('plans').scrollIntoView({behavior: 'smooth'})">View Plans</button>
+            </div>
+        </section>
+
+        <section id="plans" class="pricing text-container">
+            <h2>Hosting Plans</h2>
+            <div class="plan-common-features">
+                <p>All Plans Include:</p>
+                <ul>
+                    <li>Intel Xeon Gold 6154</li>
+                    <li>India Location</li>
+                    <li>24/7 Online</li>
+                </ul>
+            </div>
+            <div class="plan-container">
+                <div class="plan">
+                    <h3>Starter Plan</h3>
+                    <p class="price">₹99/month</p>
+                    <ul>
+                        <li>CPU: 100%</li>
+                        <li>RAM: 2GB</li>
+                        <li>SSD: 10GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p class="price">₹149/month</p>
+                    <ul>
+                        <li>CPU: 100%</li>
+                        <li>RAM: 4GB</li>
+                        <li>SSD: 20GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Better Plan</h3>
+                    <p class="price">₹219/month</p>
+                    <ul>
+                        <li>CPU: 200%</li>
+                        <li>RAM: 6GB</li>
+                        <li>SSD: 30GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+
+                <div class="plan featured">
+                    <h3>Standard Plan</h3>
+                    <p class="price">₹279/month</p>
+                    <ul>
+                        <li>CPU: 300%</li>
+                        <li>RAM: 8GB</li>
+                        <li>SSD: 40GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p class="price">₹359/month</p>
+                    <ul>
+                        <li>CPU: 400%</li>
+                        <li>RAM: 12GB</li>
+                        <li>SSD: 50GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Legendary Plan</h3>
+                    <p class="price">₹429/month</p>
+                    <ul>
+                        <li>CPU: 500%</li>
+                        <li>RAM: 16GB</li>
+                        <li>SSD: 80GB</li>
+                    </ul>
+                    <button onclick="window.open('https://discord.gg/hrhosting', '_blank')">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="development" class="development text-container">
+            <h2>Custom Development Services</h2>
+            <div class="dev-services-container">
+                <div class="dev-service">
+                    <h3>Skywars Setup</h3>
+                    <p class="dev-price">₹299</p>
+                    <ul>
+                        <li>Full Configuration</li>
+                        <li>Custom Settings</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <a href="https://discord.gg/hrhosting" target="_blank" class="dev-button">Hire Developer</a>
+                </div>
+
+                <div class="dev-service">
+                    <h3>Bedwars Setup</h3>
+                    <p class="dev-price">₹299</p>
+                    <ul>
+                        <li>Complete Installation</li>
+                        <li>Custom Maps Integration</li>
+                        <li>Plugin Configuration</li>
+                    </ul>
+                    <a href="https://discord.gg/hrhosting" target="_blank" class="dev-button">Hire Developer</a>
+                </div>
+
+                <div class="dev-service">
+                    <h3>Survival Setup</h3>
+                    <p class="dev-price">₹299</p>
+                    <ul>
+                        <li>World Configuration</li>
+                        <li>Essential Plugins Setup</li>
+                        <li>Custom Features</li>
+                    </ul>
+                    <a href="https://discord.gg/hrhosting" target="_blank" class="dev-button">Hire Developer</a>
+                </div>
+
+                <div class="dev-service featured">
+                    <div class="featured-badge">Best Value</div>
+                    <h3>Complete Package</h3>
+                    <p class="dev-price">₹999</p>
+                    <ul>
+                        <li>Survival, Lifesteal, Skywars, Bedwars, Build Battle, Parkour, Minigames, and more</li>
+                        <li>Requires legendary plan or custom plan</li>
+                        <li>Proxy Server Setup</li>
+                        <li>Network Configuration</li>
+                        <li>Premium Support</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <a href="https://discord.gg/hrhosting" target="_blank" class="dev-button">Hire Developer</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features text-container">
+            <h2>Why Choose HR Hosting?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Instant Setup</h3>
+                    <p>Your server will be ready in minutes with our automated setup process and user-friendly control panel</p>
+                </div>
+                <div class="feature">
+                    <h3>24/7 Support</h3>
+                    <p>Expert support team available round the clock to assist you with any technical issues or queries</p>
+                </div>
+                <div class="feature">
+                    <h3>High Performance</h3>
+                    <p>Powered by Intel Xeon Gold processors and NVMe SSDs for exceptional gaming performance</p>
+                </div>
+                <div class="feature">
+                    <h3>Easy Management</h3>
+                    <p>Intuitive control panel with one-click plugin installer and easy server management tools</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about text-container">
+            <h2>About HR Hosting</h2>
+            <p>At HR Hosting, we're passionate about delivering exceptional Minecraft server hosting experiences. Combining cutting-edge technology with years of expertise, we provide a robust and reliable platform for your gaming community to thrive. Our commitment to performance, security, and customer satisfaction makes us the trusted choice for Minecraft enthusiasts worldwide.</p>
+        </section>
+
+        <section id="contact" class="contact text-container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" id="sendMessage">Send Message</button>
+            </form>
+        </section>
+
+        <div class="message-popup" id="messagePopup">
+            <span class="close-popup" id="closePopup"><i class="fas fa-times"></i></span>
+            <h3>Message Sent!</h3>
+            <p>Thank you for contacting us. We'll get back to you soon!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>HR Hosting</h3>
+                <p>Premium Minecraft Server Hosting</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#development">Development</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: hr.hosting24@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HR Hosting. All rights reserved.</p>
+            <p>Made with ❤️ by <a href="https://discord.gg/hrhosting" target="_blank">Jaswin and Eoto</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // Add your EmailJS public key here
+        })();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
